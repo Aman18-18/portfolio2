@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200" fill="none">
+  <rect width="200" height="200" rx="24" fill="#111"/>
+  <rect x="1" y="1" width="198" height="198" rx="23" stroke="rgba(255,255,255,0.08)" stroke-width="2"/>
+  <!-- Straw hat silhouette placeholder -->
+  <ellipse cx="100" cy="118" rx="52" ry="12" fill="#eab308" opacity="0.9"/>
+  <path d="M48 118 Q100 72 152 118" fill="#ca8a04" opacity="0.85"/>
+  <circle cx="100" cy="108" r="28" fill="#fca5a5" opacity="0.7"/>
+  <text x="100" y="168" text-anchor="middle" fill="#71717a" font-family="system-ui,sans-serif" font-size="10">Drop Luffy image here</text>
+  <text x="100" y="182" text-anchor="middle" fill="#52525b" font-family="system-ui,sans-serif" font-size="8">public/avatar.png</text>
+</svg>
