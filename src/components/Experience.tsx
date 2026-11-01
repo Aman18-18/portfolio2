@@ -54,7 +54,7 @@ export function Experience() {
                 viewport={{ once: true, amount: 0.2 }}
                 transition={{ duration: 0.4, delay: index * 0.08 }}
                 whileHover={{ y: -2 }}
-                className="card glow-border group rounded-2xl overflow-hidden"
+                className="card card-spot glow-border group rounded-2xl overflow-hidden"
               >
                 <button
                   type="button"

@@ -8,15 +8,19 @@ import { Contact } from "./components/Contact";
 import { ScrollProgress } from "./components/ScrollProgress";
 import { CursorGlow } from "./components/CursorGlow";
 import { PageIntro } from "./components/PageIntro";
+import { BackgroundFX } from "./components/BackgroundFX";
 import { useLenis } from "./hooks/useLenis";
+import { useCardSpotlight } from "./hooks/useCardSpotlight";
 
 function App() {
   useLenis();
+  useCardSpotlight();
 
   return (
     <>
       <PageIntro />
       <div className="noise-overlay" aria-hidden="true" />
+      <BackgroundFX />
       <CursorGlow />
       <ScrollProgress />
       <Navigation />

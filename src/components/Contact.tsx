@@ -38,7 +38,7 @@ export function Contact() {
           viewport={{ once: true, amount: 0.3 }}
           transition={{ duration: 0.45 }}
           style={{ opacity, y }}
-          className="card glow-border rounded-2xl p-8 md:p-10 text-center mb-16"
+          className="card card-spot glow-border rounded-2xl p-8 md:p-10 text-center mb-16"
         >
           <p className="text-lg md:text-xl text-fg font-medium mb-2">
             Hey, you scrolled this far - let&apos;s talk.

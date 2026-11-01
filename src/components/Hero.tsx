@@ -36,7 +36,7 @@ export function Hero() {
           initial={{ opacity: 0, y: 16 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.6, delay: 0.2 }}
-          className="card glow-border rounded-2xl p-6 md:p-8 mb-8 text-left"
+          className="card card-spot glow-border rounded-2xl p-6 md:p-8 mb-8 text-left"
         >
           <p className="text-sm text-muted leading-relaxed mb-4">
             <span className="highlight-sentence">
